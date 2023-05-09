@@ -110,11 +110,16 @@ hr {
 
 
 @media(max-width: 375px) {
+  .container {
+    
+  }
   .card-container {
+   margin-top: 120px;
    width: 300px;
   }
 
   .card-img {
     width: 300px;
+    object-fit: cover;
   }
 }
