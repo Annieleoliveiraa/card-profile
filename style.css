@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+ font-family: 'Kumbh Sans', sans-serif;
+ background-image: url(./images/bg-pattern-top.svg);
+ background-color: hsl(185, 75%, 39%);
+ background-position: left;
+ background-position: right;
+ margin: 0;
+ padding: 0;
+}
+
+h4 {
+ text-align: center;
+ color: hsl(229, 23%, 23%);
+}
+
+span {
+ color: hsl(227, 10%, 46%);
+ font-weight: 400;
+ padding-left: 5px;
+}
+
+hr {
+ margin-top: 10px;
+ color: hsl(0, 2%, 90%);
+ border: 1px solid;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+ width: 400px;
+ height: 410px;
+ margin-top: 50px;
+ border-radius: 20px;
+ background-color: white;
+}
+
+.card-img {
+ width: 400px;
+ height: 160px;
+ border-radius: 20px 20px 0 0;
+}
+
+.card-image {
+ display: flex;
+ justify-content: center;
+}
+
+.img-victorr {
+ width: 90px;
+ height: 90px;
+ border-radius: 50px;
+ border: 6px solid white;
+ margin-top: -56px;
+}
+
+.text-london {
+ text-align: center;
+ color: hsl(227, 10%, 46%);
+ margin-top: -10px;
+ font-weight: 500;
+}
+
+.container-like {
+ display: flex;
+ justify-content: space-around;
+}
+
+.card-followers {
+ display: flex;
+ flex-direction: column;
+}
+
+.text-follow {
+ font-size: 20px;
+ font-weight: bold;
+ color: hsl(229, 23%, 23%);
+}
+
+.text-like {
+ font-size: 20px;
+ font-weight: bold;
+ color: hsl(229, 23%, 23%);
+}
+
+.text-photo {
+ font-size: 20px;
+ font-weight: bold;
+ color: hsl(229, 23%, 23%);
+}
+
+.container-info {
+ color: hsl(227, 10%, 46%);
+ margin-top: -5px;
+ font-size: 14px;
+}
+
+.card-info {
+ color: hsl(227, 10%, 46%);
+ font-size: 14px;
+ margin-top: -4px;
+}
+
+
+@media(max-width: 375px) {
+  .card-container {
+   width: 300px;
+  }
+
+  .card-img {
+    width: 300px;
+  }
+}
