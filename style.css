@@ -50,7 +50,6 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  
 }
 
 button {
@@ -76,4 +75,20 @@ span {
 
 span:hover {
   color: hsl(0, 0%, 20%);
+}
+
+
+@media screen and (max-width:375px) {
+  .container {
+    width: 250px;
+    height: 580px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    width: 200px;
+  }
 }
